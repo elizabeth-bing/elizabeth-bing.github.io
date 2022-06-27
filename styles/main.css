@@ -17,7 +17,7 @@ body {
   font-size: 20px;
 }
 
-a {
+.headerformat {
   background-color: white;
   color: black;
   padding: 1em 1.5em;

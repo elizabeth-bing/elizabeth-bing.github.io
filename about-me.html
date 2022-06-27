@@ -6,7 +6,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link href="./styles/main.css" rel="stylesheet" type="text/css"> 
-
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anek+Latin:wght@200&family=Montserrat&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+ 
  
   <title>About</title>
 
@@ -14,45 +17,48 @@
 <body>
 
   <!--nav bar -->
-  <div>
-    <a href="about-me.html"> About </a>
-    <a href="devacademy.html"> Dev Academy </a>
-    <a href="index.html"> <strong>ELIZABETH BING</strong> </a>
-    <a href="articles.html"> Articles </a>
-    <a href="resume.html"> Resume </a>
+  <div class="header">
+    <a class="headerformat" href="about-me.html"> About </a>
+    <a class="headerformat" href="devacademy.html"> Dev Academy </a>
+    <a class="headerformat" href="index.html"> <strong>ELIZABETH BING</strong> </a>
+    <a class="headerformat" href="articles.html"> Articles </a>
+    <a class="headerformat" href="resume.html"> Resume </a>
   </div>
 
 
-<div>
-  <h1> <strong> ELIZABETH BING </strong> </h1>
+<div class="flex-container">
+  <div class="baby-container">
+  <h2> <strong> ELIZABETH BING </strong> </h2>
   
-  <p>I am a 3-year lawyer pivoting into IT. My goal is to work on emerging technologies while being
+  <p class="p">I am a 3-year lawyer pivoting into IT. My goal is to work on emerging technologies while being
 surrounded by talented, experienced professionals who I can learn the ins and outs of tech from. </p>
 
-  <p> What excites me about technology? I am fascinated by how much our world revolves around data- no longer is “money king”; data is the new currency of today, and, with it, bringing many challenges. </p>
+  <p class="p"> What excites me about technology? I am fascinated by how much our world revolves around data- no longer is “money king”; data is the new currency of today, and, with it, bringing many challenges. </p>
 
-  <p> I love to tackle problems and sink my teeth into a project. Having dabbled in technology, one of my
+  <p class="p"> I love to tackle problems and sink my teeth into a project. Having dabbled in technology, one of my
 favourite personal projects to date is the digitisation of internal processes. By creating bots and
 automating part of my job, I optimised compliance administration resulting in efficiency gains and
 improved consistency. I found myself enjoying the tech-side of my job more than the
 actual lawyering, so much so, that I am now undertaking a full-stack bootcamp with Dev Academy. </p>
 
-  <p> <strong> Let's build something together!</strong> </p>
-  <p> <a href="https://www.linkedin.com/in/elizabeth-bing-99180a97/">Linkedin</a> 
+  <p class="p"> <strong> Let's build something together!</strong> </p>
+  <a class="a" href="https://www.linkedin.com/in/elizabeth-bing-99180a97/">Linkedin</a> 
     <br>
-    <a href="https://github.com/elizabeth-bing">Github</a> </p>
-  
-<!-- ESB look into adding icons for linkedin/github instead of having links like above-->
-  <img src="./images/profile-photo.jpeg" alt="photo of self">
-
-
-  <p> <em> "Do something today that your future self will thank you for" </em> <strong> - Sean Patrick Flanery </strong>  </p>
-
+    <a class="a" href="https://github.com/elizabeth-bing">Github</a> 
+  </div>
+  <img id="selfie" src="./images/profile-photo.jpeg" alt="photo of self">
 </div>
 
+<!-- ESB look into adding icons for linkedin/github instead of having links like above-->
+
+
+  <p class="quote"> <em> "Do something today that your future self will thank you for" </em> <strong> - Sean Patrick Flanery </strong>  </p>
+
+
+
 <!-- footer-->
-<footer>
- <p>Made with ♥ by Yours Truly </p> 
+<footer id="footer">
+  <p>Made with ♥ by Elizabeth Bing 2022 </p>
 </footer>
 
 </body>

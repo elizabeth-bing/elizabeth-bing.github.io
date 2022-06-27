@@ -35,7 +35,7 @@ h1 {font-size: 30pt;
 
 }
 
-img {
+.home-img {
   position: fixed;
   left: 0px;
   top: 155px;
@@ -51,6 +51,44 @@ img {
   height: 2.5rem;
 
 }
+
+#selfie {
+  position: fixed;
+  left: 29px;
+  top: 174px;
+  z-index: 0;
+  width: 27%;
+  height: 49%;
+}
+
+.quote{
+  font-size: 25px;
+  margin-bottom: 0px;
+  position: fixed;
+  top: 604px;
+  right: 325px;
+  color:black;
+  text-align: center;
+
+}
+
+.p {
+    color:black;
+    text-align:center;
+}
+
+h2 {
+    font-size: 18pt;
+    color:black;
+    text-align:center;
+
+}
+
+.a {
+  color:black;
+
+}
+
 /*
 p{font-size: 20pt;
 

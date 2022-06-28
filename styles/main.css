@@ -2,7 +2,6 @@
   border: 1px solid red;
 } */
 
-
 body {
     background-color: white;
     text-align: center;
@@ -27,9 +26,9 @@ body {
 
 h1 {font-size: 30pt;
     margin-bottom: 0px;
-    position: fixed;
-    top: 426px;
-    right: 571px;
+    position: relative;
+    top: 229px;
+    right: 117px;
     color:white
 
 
@@ -42,6 +41,12 @@ h1 {font-size: 30pt;
   z-index: -1;
   width: 100%;
   
+}
+
+.statement {
+  background-image:ur
+  width: 100%;
+  height: 80vh;
 }
 
 #selfie {
@@ -101,7 +106,64 @@ padding-right: 20px;
   height: 2.5rem;
 
 }
+ 
+/* For Mobile Phones Portrait or Landscape View */
+@media screen and (max-device-width: 640px) {
+  .header {
+    padding: 5px;
+    font-size: 15px;
+  }
+  h1 {font-size: 20pt;
+    margin-bottom: 0px;
+    position: relative;
+    top: 229px;
+    right: 117px;
+    color:white}
 
+  }
+
+  @media screen and (max-device-width: 320px) {
+    .header {
+      padding: 5px;
+      font-size: 15px;
+    }
+    h1 {font-size: 20pt;
+      margin-bottom: 0px;
+      position: relative;
+      top: 229px;
+      right: 117px;
+      color:white}
+  
+    }
+
+
+/* For iPhone 4 Portrait or Landscape View
+@media screen and (min-device-width: 320px)
+and (-webkit-min-device-pixel-ratio: 2) {
+  .media {
+    width: 400px;
+    height: 400px;
+    
+  }
+}
+/*  
+/* For iPhone 5 Portrait or Landscape View */
+/* @media (device-height: 568px) and (device-width: 320px)
+and (-webkit-min-device-pixel-ratio: 2) {
+  .media {
+    width: 400px;
+    height: 400px;
+ 
+  }
+}
+ 
+/* For iPhone 6 and 6 plus Portrait or Landscape View */
+/* @media (min-device-height: 667px) and (min-device-width: 375px)
+and (-webkit-min-device-pixel-ratio: 3) {
+  .media {
+    width: 400px;
+    height: 400px; */
+  
 /*
 p{font-size: 20pt;
 

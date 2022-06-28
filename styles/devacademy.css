@@ -33,3 +33,21 @@ body {
   height: 2.5rem;
 
 }
+/* For Mobile Phones Portrait or Landscape View */
+@media screen and (max-device-width: 640px) {
+  .header {
+    padding: 5px;
+    font-size: 15px;
+  }
+  
+
+  }
+
+  @media screen and (max-device-width: 320px) {
+    .header {
+      padding: 2.5px;
+      font-size: 5px;
+    }
+    
+  
+    }

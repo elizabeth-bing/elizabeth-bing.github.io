@@ -11,13 +11,13 @@ body {
 .header {
   padding: 60px;
   text-align: center;
-  background: white;
+  background: none;
   color: black;
   font-size: 20px;
 }
 
 .headerformat {
-  background-color: white;
+  background-color: none;
   color: black;
   padding: 1em 1.5em;
   text-decoration: none;
@@ -25,10 +25,10 @@ body {
 }
 
 h1 {font-size: 30pt;
-    margin-bottom: 0px;
-    position: relative;
-    top: 229px;
-    right: 117px;
+    /* margin-bottom: 0px; */
+    position: fixed;
+    top: 410px;
+    right: 524px;
     color:white
 
 
@@ -46,7 +46,7 @@ h1 {font-size: 30pt;
 .statement {
   background-image:ur
   width: 100%;
-  height: 80vh;
+  min-height: 50vw;
 }
 
 #selfie {
@@ -100,7 +100,7 @@ padding-right: 20px;
 }
 
 #footer {
-  position: absolute;
+  position: relative;
   bottom: 0;
   width: 100%;
   height: 2.5rem;
@@ -110,31 +110,105 @@ padding-right: 20px;
 /* For Mobile Phones Portrait or Landscape View */
 @media screen and (max-device-width: 640px) {
   .header {
-    padding: 5px;
+    padding: 15px;
     font-size: 15px;
+   
   }
   h1 {font-size: 20pt;
     margin-bottom: 0px;
     position: relative;
-    top: 229px;
-    right: 117px;
+    top: 180px;
+    right: 95px;
     color:white}
 
   }
 
+  /* #selfie {
+  
+    left: 29px;
+    top: 500px;
+    z-index: 0;
+    width: 27%;
+    height: 49%;
+  } */
+  
+  .quote{
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    margin-bottom: 0px;
+    color:black;
+    text-align: center;
+    justify-content: center;
+  
+  }
+
+  .flex-container {
+
+    display: flex;
+    flex-direction: row-reverse;
+    text-align: left;
+    padding-left: 30px;
+    padding-right: 30px; 
+    flex-shrink: 15;
+    }
+    
+    .baby-container {
+      padding: 0 50px 0 50px;
+    }
+
   @media screen and (max-device-width: 320px) {
     .header {
-      padding: 2.5px;
-      font-size: 5px;
+      padding: 10px;
+      font-size: 6px;
     }
     h1 {font-size: 10pt;
       margin-bottom: 0px;
       position: relative;
-      top: 229px;
-      right: 117px;
+      top: 155px;
+      right: 45px;
       color:white}
-  
+
+      body {
+       min-height: 100%;
     }
+  
+    .quote{
+      display: flex;
+      flex-direction: row;
+      font-size: 10px;
+      margin-bottom: 0px;
+      color:black;
+      text-align: center;
+      justify-content: center;
+    
+    }
+  
+    .flex-container {
+  
+      display: flex;
+      flex-direction: row-reverse;
+      text-align: left;
+      padding-left: 10px;
+      padding-right: 10px; 
+      flex-shrink: 15;
+      font-size: 5pt;
+      }
+      
+      .baby-container {
+        padding: 0 50px 0 50px;
+      }
+      #footer {
+        position: relative;
+        bottom: 0;
+        width: 100%;
+        height: 2.5rem;
+        font-size: 8pt;
+      
+      }
+    
+    }
+
 
 
 /* For iPhone 4 Portrait or Landscape View
